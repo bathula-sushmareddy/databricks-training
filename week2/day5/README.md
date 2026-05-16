@@ -1,6 +1,6 @@
 # SQL Window Functions Practice
 
-This file contains SQL Window Function concepts and practice queries using Employees and Orders tables.
+This file contains the SQL Window Function concepts and practice queries using Employees and Orders tables.
 
 ## Topics Covered
 
