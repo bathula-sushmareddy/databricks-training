@@ -10,7 +10,9 @@ This folder contains the output screenshots for the SQL to PySpark – Phase 3 e
 - `02_city_wise_revenue.png` – City-wise revenue output
 - `03_repeat_customers.png` – Customers with more than two orders
 - `04_highest_spending_customer.png` – Highest spending customer in each city
-- `05_final_reporting_table.png` – Final reporting table showing customer, city, total spend, and order count, Output of reading products.json, Output of reading titanic.parquet
+- `05_final_reporting_table.png` – Final reporting table showing customer, city, total spend, and order count
+- `json_output.png` – Output of reading `products.json`
+- `parquet_output.png` – Output of reading `titanic.parquet`
 - `ETL_Pipeline.png` – Final ETL pipeline output
 
 ## Description
