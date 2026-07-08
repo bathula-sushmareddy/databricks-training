@@ -14,9 +14,4 @@ GROUP BY c.city, s.customer_id
 ORDER BY c.city, total_spent DESC
 """)
 result.show()
-print("===== Highest Spending Customer in Each City (PySpark) =====")
-result = customers.join(sales, "customer_id") \
-                  .groupBy("city", "customer_id") \
-                  .agg(sum("total_amount").alias("total_spent")) \
-                  .orderBy("city", col("total_spent").desc())
-result.show()
+
